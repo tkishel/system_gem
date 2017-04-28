@@ -15,7 +15,7 @@ This a workaround for PUP-6134: Unable to install a Ruby gem to non-Puppet Ruby 
 To use this package provider, specify it as the provider of a package.
 
 ~~~
-package { 'json':
+package { 'sinatra':
   ensure   => present,
   provider => system_gem,
 }
@@ -27,4 +27,5 @@ Puppet is unable to install a ruby gem anywhere other than Puppet's ruby via the
 This is caused by Puppet prepending its paths (including the path to Puppet's ruby gem command) to PATH.
 This workaround removes Puppet's paths from PATH when setting :gemcmd.
 
-While this package provider is meant as a workaround for an issue specific to Windows, it is compatible with other operating systems.
+While the system_gem package provider is meant as a workaround for an issue specific to Windows, 
+it is compatible with the other operating systems supported by the parent gem package provider.
