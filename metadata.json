@@ -1,0 +1,31 @@
+{
+  "name": "tkishel-system_gem",
+  "version": "1.0.0",
+  "author": "Thomas Kishel",
+  "summary": "Workaround for PUP-6134",
+  "license": "Apache-2.0",
+  "source": "https://github.com/tkishel/system_gem.git",
+  "project_page": "https://github.com/tkishel/system_gem",
+  "issues_url": "https://github.com/tkishel/system_gem/issues",
+  "dependencies": [
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Windows",
+      "operatingsystemrelease": [
+        "Server 2008",
+        "Server 2008 R2",
+        "Server 2012",
+        "Server 2012 R2"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.8.0 < 5.0.0"
+    }
+  ],
+  "description": "Workaround for PUP-6134: Unable to install a Ruby gem to non-Puppet Ruby stack using the package resource type on Windows"
+}
