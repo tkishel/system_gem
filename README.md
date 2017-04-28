@@ -8,9 +8,7 @@
 
 ## Description
 
-This a workaround for PUP-6134:
-
-Unable to install a Ruby gem to non-Puppet Ruby stack using the package resource type on Windows
+This a workaround for PUP-6134: Unable to install a Ruby gem to non-Puppet Ruby stack using the package resource type on Windows
 
 ## Usage
 
