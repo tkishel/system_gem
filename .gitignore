@@ -1,0 +1,5 @@
+Gemfile.lock
+pkg
+spec/fixtures/manifests/
+spec/fixtures/modules/
+.DS_Store
